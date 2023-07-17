@@ -30,7 +30,6 @@ export default function App({ Component, pageProps }: AppProps) {
       <Component {...pageProps} />
       <Header />
       <Navbar />
-      <Component {...pageProps} />
       <Footer />
     </>
   );
