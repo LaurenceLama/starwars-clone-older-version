@@ -1,12 +1,12 @@
 import styled from "styled-components";
-// import SocialLinks from "./SocialLinks";
+import SocialLinks from "./SocialLinks";
 import Link from "next/link";
 
 function Header() {
   return (
     <HeaderContainer>
       <HeaderLeft>
-        {/* <SocialLinks /> */}
+        <SocialLinks />
       </HeaderLeft>
       <Link href="/">
           <img
