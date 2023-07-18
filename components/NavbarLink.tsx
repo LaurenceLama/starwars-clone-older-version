@@ -26,6 +26,7 @@ const NavLink = styled.a`
     color: white;
   }
 
+  // targets last of the navlink(not a child tho) damn
   :last-of-type {
     border-right: 1px solid #333;
   }
