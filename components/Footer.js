@@ -50,6 +50,7 @@ const FooterContainer = styled.div`
   margin-top: 70px;
   background-color: black;
   padding: 20px;
+  width: 100%;
   color: white;
   background-image: url(https://static-mh.content.disney.io/starwars/assets/footer/vader_2-86e8fdb4e26d.jpg);
   background-position: center top;
