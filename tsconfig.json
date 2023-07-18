@@ -15,6 +15,6 @@
     "isolatedModules": true,
     "jsx": "preserve"
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/Character.js", "components/CharacterCard.js", "components/Footer.js", "components/Header.js", "components/Navbar.js", "components/NavbarLink.js", "components/SocialLink.js", "components/SocialLinks.js", "pages/_app.tsx", "pages/_document.tsx", "pages/index.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/Character.tsx", "components/CharacterCard.tsx", "components/Footer.tsx", "components/Header.tsx", "components/Navbar.tsx", "components/NavbarLink.tsx", "components/SocialLink.tsx", "components/SocialLinks.tsx", "pages/_app.tsx", "pages/_document.tsx", "pages/index.tsx"],
   "exclude": ["node_modules"]
 }
