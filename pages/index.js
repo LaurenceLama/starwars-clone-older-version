@@ -13,7 +13,7 @@ export default function Characters({ characters }) {
     <>
       <Head>
         <title>Star Wars Characters | StarWars.com</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="..public/favicon.ico" />
       </Head>
       <HomeScreenContainer>
         <StarfieldLeft />

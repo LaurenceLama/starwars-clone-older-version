@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-function SocialLink({ image }) {
+function SocialLink({ link, image }) {
   return (
     <Link href="https://www.facebook.com" image={image}>
       <span />

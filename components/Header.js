@@ -9,10 +9,10 @@ function Header() {
         <SocialLinks />
       </HeaderLeft>
       <Link href="/">
-          <img
-            src="https://download.logo.wine/logo/Star_Wars/Star_Wars-Logo.wine.png"
-            alt=""
-          />
+        <img
+          src="https://download.logo.wine/logo/Star_Wars/Star_Wars-Logo.wine.png"
+          alt=""
+        />
       </Link>
       <HeaderRight>
         <HeaderSearch>
@@ -49,7 +49,7 @@ const HeaderContainer = styled.div`
   right: 0;
   left: 0;
 
-  // dunno why I couldn't just directly edit image, I guess cause the HeaderContainer is mainly being styled, 
+  // dunno why I couldn't just directly edit image, I guess cause the HeaderContainer is mainly being styled,
   /* so this directory(idk whats the term im looking for) below is needed to target the image */
   > a > img {
     object-fit: contain; //maintains aspect ratio

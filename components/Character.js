@@ -6,10 +6,10 @@ function Character({ character }) {
   return (
     <CharacterContainer>
       <Link href={`/id/${character.id}.json`}>
-          <img src={character.image} alt={character.name} />
+        <img src={character.image} alt={character.name} />
       </Link>
       <Link href={`/id/${character.id}.json`}>
-          <h1>{character.name}</h1>
+        <h1>{character.name}</h1>
       </Link>
       <Decal />
     </CharacterContainer>

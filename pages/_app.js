@@ -1,10 +1,10 @@
-import styled, { createGlobalStyle } from 'styled-components'
-import Header from '../components/Header';
-import Navbar from "../components/Navbar";
-import Footer from '../components/Footer';
 import { useEffect, useState } from "react";
+import { createGlobalStyle } from "styled-components";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import Navbar from "../components/Navbar";
+import styled from "styled-components";
 import { Circle } from "better-react-spinkit";
-
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -30,7 +30,7 @@ export default function App({ Component, pageProps }) {
   useEffect(() => {
     const timeoutId = setTimeout(() => {
       setLoading(false);
-    }, 1000);
+    }, 500);
     return () => {
       clearTimeout(timeoutId);
     };
@@ -46,7 +46,7 @@ export default function App({ Component, pageProps }) {
               src="https://download.logo.wine/logo/Star_Wars/Star_Wars-Logo.wine.png"
               alt=""
             />
-            <Circle color="#edec51" size={80} />
+            <Circle color="#edec51" size={60} />
           </AppLoadingContents>
         </AppLoading>
       ) : (
